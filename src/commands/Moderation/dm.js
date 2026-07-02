@@ -17,7 +17,7 @@ export default {
         )
         .addStringOption(option =>
             option
-                .setName("messages")
+                .setName("message")
                 .setDescription("The message to send")
                 .setRequired(true)
         )
