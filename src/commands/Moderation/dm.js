@@ -11,13 +11,13 @@ export default {
         .setDescription("Send a direct message to a user (Staff only)")
         .addUserOption(option =>
             option
-                .setName("user")
+                .setName("users")
                 .setDescription("The user to send a DM to")
                 .setRequired(true)
         )
         .addStringOption(option =>
             option
-                .setName("message")
+                .setName("messages")
                 .setDescription("The message to send")
                 .setRequired(true)
         )
