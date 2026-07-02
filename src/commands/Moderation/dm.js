@@ -18,7 +18,7 @@ export default {
         .addStringOption(option =>
             option
                 .setName("messages")
-                .setDescription("The messages to send")
+                .setDescription("The message to send")
                 .setRequired(true)
         )
         .addBooleanOption(option =>
