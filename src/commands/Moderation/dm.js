@@ -13,7 +13,7 @@ export default {
             option
                 .setName("user")
                 .setDescription("The user to send a DM to")
-                .setRequired(true)
+                .setRequired(false)
         )
         .addRoleOption(option =>
             option
