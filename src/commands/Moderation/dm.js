@@ -31,10 +31,10 @@ export default {
             option
                 .setName("anonymous")
                 .setDescription("Send the message anonymously (default: false)")
-                .setRequired(false)
+                .setRequired(true)
         )
         .setDefaultMemberPermissions(PermissionFlagsBits.ModerateMembers)
-        .setDMPermission(false),
+        .setDMPermission(true),
     category: "moderation",
 
     async execute(interaction, config, client) {
